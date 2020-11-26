@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Pick a Pet</title>
+    <style>
+
+        .footer{
+            background-color: #ecf1f5;
+            float:bottom;
+            padding:0;
+
+            width:100%;
+            width: 100%;
+            padding:0;
+            height: 175px;
+            text-align: center;
+            background-color: #ecf1f5;
+
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 100px;
+
+
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+
+            display: inline-block;
+
+            vertical-align: baseline;
+        }
+
+
+        .fa:hover {
+            opacity: 0.6;
+            display:inline;
+        }
+
+        .fa-facebook-square {
+
+            border-color:transparent;
+            color: #756b5b;
+            margin-left: 0px;
+            margin-right: 0px;
+            align-items: center;
+        }
+
+        .fa-twitter-square {
+
+            color: #756b5b;
+            margin: 1px;
+            align-items: center;
+        }
+        .fa-instagram {
+
+            color: #756b5b;
+            margin: 1px;
+            align-items: center;}
+
+
+
+        h3{
+
+            color:#756b5b;
+            text-align:-moz-center;
+            font-size:3vw;
+        }
+        #row_oben{
+
+
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid px-0 justify-content-center">   <!-- page 6 -->
+    <div class="rows" style=" display: inline-block;margin:0px;padding:0px;border:0px; height:450px;">
+        <img class="boorderles" src=".\Images\uebersicht2.jpg" alt="dog5-1" width=33% height="100%">
+        <img class="boorderles" src=".\Images\labrador2.png" alt="dog5-2" width="33%" height="100%">
+        <img class="boorderles" src=".\Images\labrador3.png" alt="dog5-3" width="33%" height="100%">
+    </div>
+    <div class="title-unter" style="text-align:center;color:#786E5E; font-family: 'Montserrat', sans-serif;margin:0px;padding:0px">
+        <h3> Theo </h3>
+        <h3> Tierheim Giessen </h3>
+    </div>
+    <div class="container justify-content-center" style="display: inline-block; height:100px; width:30%;margin-right: 35%;margin-left: 35%;">
+        <div style="float:top; height:100%;">
+            <img style="display: inline; margin: 0 5px;" title="heartica_logo" src=".\Images\maennlich.png" alt=""
+                 width="20%" height="100%"/>
+            <img style="display: inline; margin: 0 5px;" title="mouseflow_logo" src=".\Images\familienfreundlich.png"
+                 alt="" width="20%" height="100%"/>
+            <img style="display: inline; margin: 0 5px;" title="piiholo_logo" src=".\Images\krank.png" alt=""
+                 width="20%" height="100%"/>
+            <img style="display: inline; margin: 0 5px;" title="piihoso_logo" src=".\Images\vertraeglich.png" alt="" width="20%" height="100%"/>
+        </div>
+
+        <hr style="background: #333; border: none; color: #786E5E; height: 1px; width:80%;">
+
+
+        <p class="text-center" style="width:80%;color:#786E5E; font-family: 'Montserrat', sans-serif;">
+            Theo ist ein verschmuster Riese. Er ist sehr Menschenbezogen und genießt seine täglichen
+            Spaziergänge inklusive vieler Leckerlies. Theo liebt seine Hundefreunde sowie alle Menschen
+            denen er begegnet. Zu Kindern ist er sehr aufgeschlossen, vorsichtig und freundlich. Theo hat
+            schon sehr viel erlebt in seinem Leben, weshalb ihm kurze Spaziergänge völlig ausreichen.
+        </p>
+    </div>
+    <hr style="background: #333; border: none; color: #786E5E; height: 1px; width: 80%;">
+    <div class="title-unter" style="text-align:center;color:#786E5E; font-family: 'Montserrat', sans-serif;">
+        <h3>Wähle jetzt deine Zeit aus </h3>
+    </div>
+    <!-- bottons for zeit and wochentag-->
+    <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Zeit
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">9:00-11:00</a>
+            <a class="dropdown-item" href="#">15:00-17:30</a>
+            <a class="dropdown-item" href="#">18:00-19:30</a>
+        </div>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Wochentag
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Montag</a>
+            <a class="dropdown-item" href="#">Mittwoch</a>
+            <a class="dropdown-item" href="#">Donnerstag</a>
+        </div>
+
+    </div>
+    <button class="btn" style="background-color: #786E5E; margin-top: 50%;
+  color: white; font-size: 22px; padding: 8px 24px;border:none; cursor: pointer;
+     border-radius: 5px;">Jetzt buchen</button>
+    <hr style="background: #333; border: none; color: #786E5E; height: 1px; width: 55%;">
+    <div class="title-unter" style="text-align:center;color:#786E5E; font-family: 'Montserrat', sans-serif;">
+        <h2>Bei Fragen kontaktiere dein Tierheim</h2>
+        <div class="container" style="margin:5%;" >
+            <div class="row">
+                <div class="col">
+                    <div class="row"><img src="Images/benutzer.png" height="100" width="100" style="text-align:center"/>   Tierheim </div>
+                    <div class="row"> <img src="Images/Screenshot from 2020-11-25 18-58-29.png" height="100" width="90"/>TierheimGießen@gmail.com </div>
+                    <div class="row"><img src="Images/erfolg2.png" height="100" width="100"/> Vixröder Str. 16, 35396 Gießen</div>
+                    <div class="row"> <img src="Images/phone.png" height="89" width="88"/>0641-33674 </div>
+                </div>
+                <div class="col">
+                    <form>
+
+                        <div class="form-group"style="position:relative;left:15%;up:10%;border:3px; ">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <div style="position:relative;left:55%;">
+                    <button type="submit" class="btn btn-primary">sendt it </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     <!-- page 6*/-->
+<div class="container-fluid px-0 justify-content-center"> <!-- page 7 -->
+   <div class="T text-center brown">
+    <h1> Abonnements </h1>
+       <p>Die Abonnements von "Pick a Pet" ermöglichen es unsere Angebote "Walk with a Dog" und "Cuddle a Cat" zu nutzen.<br>
+           Bei "Walk with a Dog“ kannst du dir online einen Hund aussuchen, um mit diesem dann Spazieren zu gehen. Hierfür wird<br>
+           weder ein Gassigeh-Führerschein, noch jegliches Equipment wie beispielsweise Leinen benötigt. Sollte das Tier erfahrene<br>
+           Hundehalter benötigen, findest du diese Information in der Beschreibung.<br>
+           Bei "Cuddle a Cat" kannst du online ein Gehege aussuchen und buchen, um mit den Katzen in dieser Zeit<br>
+           zu spielen und zu kuscheln.<br>
+           Eine limitierte Buchungsanzahl gibt es nicht, du hast also jederzeit die Möglichkeit deine Lieblingsfellnase zu treffen!*<br>
+           *unter Berücksichtigung der vom Tierheim angegebenen Spiel-/Spaziergangszeiten </p>
+   </div>
+    <hr style="background: #333; border: none; color: #786E5E; height: 3px; width: 85%; ">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h2 class="display-4">Monats-Abonnement</h2>
+                <p class="lead">Das monatliche Abonnement von "Pick a<br>
+                    Pet" kostet 10 € pro Monat und muss<br>
+                    nicht gekündigt werden, sondern wird<br>
+                    automatisch nach der Laufzeit beendet.</p>
+
+
+                <a class="btn "href="#" role="button" style="background-color: #786E5E;
+                    color: white; margin-left: 90%;border:none; cursor: pointer; border-radius: 5px">Buchen</a>
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="jumbotron">
+                <h2 class="display-4">Jahres-Abonnement</h2>
+                <p class="lead">Das monatliche Abonnement von "Pick a<br>
+                    Pet" kostet 100€ pro Monat und muss<br>
+                    nicht gekündigt werden, sondern wird<br>
+                    automatisch nach der Laufzeit beendet</p>
+
+
+                <a class="btn "href="#" role="button" style="background-color: #786E5E;
+                    color: white; margin-left: 90%;border:none; cursor: pointer; border-radius: 5px">Buchen</a>
+                </p>
+        </div>
+    </div>
+    </div>
+</div>      <!-- page 7-->
+<div class="container-fluid px-0 justify-content-center" style="border-color:#ffaa80">          <!-- page 8-->
+    <div class="container">
+        <div class="row brown">
+            <div class="col" style="height:500px;">
+                <img src="Images/uebersicht2.jpg" height="100%" width="100%;"/>
+                <p> Theo</p>
+            </div>
+            <div class="col"style="height:100%;">
+                  <h3>Deine Buchung</h3>
+                <p>
+                Liebe Michelle,<br>
+                <div style="visibility: hidden;">ssss </div>
+                nochmal alle Informationen deiner Buchung auf
+                einen Blick:<br>
+                <div> </div>
+                Wann: 17.11.2020, um 10:00 Uhr
+                Wo: Tierheim Gießen<br>
+                <div style="visibility: hidden;">ssss </div>
+                Du hast 1h Zeit mit Hund Theo.
+                Equipment und Leckerlies werden vor Ort zur
+                Verfügung gestellt.<br>
+                <div style="visibility: hidden;">ssss </div>
+                Bitte bringe zum Termin deinen Personalausweis mit</p>
+             </div>
+        </div>
+         </div>
+    <div class="container"style="height: 100px;">
+    <div class="center">
+        <a class="btn "href="#" role="button" style="background-color: #786E5E;
+       color: white; margin-left: 90%;border:none; cursor: pointer; border-radius: 5px">Buchen bestätigen</a>
+        </div>
+      </div>
+    <h4 class="dd justify-content-center">Du bist überzeugt von Pick a Pet? Teile uns jetzt deine Meinung hier mit!</h4>
+
+</div>
+
+<!-- page 8-->
+<div class="container-fluid px-0 justify-content-center">         <!-- page 9-->
+
+</div>
+
+
+<footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" style="background-color:#ECF1F5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p> Kontakt </p>
+                <a href="https://es-la.facebook.com/vialconeirl/"  class="fa fa-facebook-square"> </a>
+            </div>
+
+
+            <div class="col">
+                <p>Impressum & Datenschutz </p>
+                <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw" class="fa fa-twitter-square"></a>
+
+            </div>
+            <div class="col">
+                <p> AGB</p>
+                <a href="https://www.instagram.com/elonmusk" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
